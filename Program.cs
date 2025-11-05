@@ -15,9 +15,13 @@ class Program
         {
             Console.WriteLine("Password is too short -- it should be atleast 8 characters");
         }
+      else if (password.Length < 12)
+        {
+            Console.WriteLine("Password is medium strength");
+        }
       else
         {
-            Console.WriteLine("Password is okay!");
+            Console.WriteLine("Password length is okay!");
         }
     }
 }
