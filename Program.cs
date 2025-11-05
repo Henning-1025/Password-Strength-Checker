@@ -1,4 +1,6 @@
-﻿namespace PasswordStrengthProgram;
+using System;
+
+namespace PasswordStrengthProgram;
 
 class Program
 {
