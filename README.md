@@ -1,6 +1,6 @@
 # Password Strength Checker
 
-A simple C# console program that checks how strong or weak a passwrod is based on its' length and character types.
+A simple C# console program that checks how strong or weak a password is based on its' length and character types.
 
 ## Program Description
 
