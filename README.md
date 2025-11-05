@@ -21,7 +21,7 @@ It then prints whether a password is too short.
 5. Determine password strength
    - conditions:
      - if: length < 8
-       - action: print "Password is too short -- it should be atleast 8 characters"
+       - action: print "Password is too short -- it should be atleast 8 characters."
      - else if: length < 12
        - action: print "Password is medium strength."
      - else:
