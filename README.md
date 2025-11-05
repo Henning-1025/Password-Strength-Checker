@@ -22,6 +22,8 @@ It then prints whether a password is too short.
    - conditions:
      - if: length < 8
        - action: print "Password is too short -- it should be atleast 8 characters"
+     - else if: length < 12
+       - action: print "Password is medium strength."
      - else:
-       - action: print "Password is okay!"
+       - action: print "Password length is okay!"
 6. End program
